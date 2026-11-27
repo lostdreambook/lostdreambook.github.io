@@ -41,7 +41,7 @@
   var RELEASED = 4;
 
   var LINKS = {
-    instagram: "",
+    instagram: "https://www.instagram.com/lost_dream_book/",
     wattpad: "https://www.wattpad.com/story/420476337",
     telegram: "https://t.me/lostdreambook",
     youtube: "https://www.youtube.com/@Lost-Dream-official",
