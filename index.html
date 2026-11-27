@@ -776,6 +776,7 @@
 
       var LINKS = {
         instagram: "",
+        wattpad: "https://www.wattpad.com/story/420476337",
         telegram: "https://t.me/lostdreambook",
         youtube: "https://www.youtube.com/@Lost-Dream-official",
         email: "lostdream.book@gmail.com"
@@ -841,6 +842,7 @@
       function links() {
         var out = [];
         if (LINKS.instagram) out.push('<a href="' + esc(LINKS.instagram) + '" target="_blank" rel="noopener">Instagram</a>');
+        if (LINKS.wattpad) out.push('<a href="' + esc(LINKS.wattpad) + '" target="_blank" rel="noopener">Wattpad</a>');
         if (LINKS.youtube) out.push('<a href="' + esc(LINKS.youtube) + '" target="_blank" rel="noopener">YouTube</a>');
         if (LINKS.telegram) out.push('<a href="' + esc(LINKS.telegram) + '" target="_blank" rel="noopener">Telegram</a>');
         if (LINKS.email) out.push('<a href="mailto:' + esc(LINKS.email) + '">' + esc(LINKS.email) + '</a>');
